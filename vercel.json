@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/:match/:url*", "destination": ":match/:url*" },
-    { "source": "/:match/:url*/", "destination": ":match/:url*/" },
+    { "source": "/:match/:url*", "destination": ":/match/:url*" },
+    { "source": "/:match/:url*/", "destination": ":/match/:url*/" },
     { "source": "/http/:match/:url*", "destination": "http://:match/:url*" },
     { "source": "/http/:match/:url*/", "destination": "http://:match/:url*/" },
     { "source": "/:protocol/:match/:url*", "destination": ":protocol://:match/:url*" },
