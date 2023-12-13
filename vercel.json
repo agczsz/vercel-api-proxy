@@ -1,12 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/:match/:url*/", "destination": "https://:match/:url*/" },
-    { "source": "/http/:match/:url*", "destination": "http://:match/:url*" },
-    { "source": "/http/:match/:url*/", "destination": "http://:match/:url*/" },
-    { "source": "/:protocol/:match/:url*", "destination": ":protocol://:match/:url*" },
-    { "source": "/:protocol/:match/:url*/", "destination": ":protocol://:match/:url*/" },
-    { "source": "/:protocol*/:match/:url*", "destination": ":protocol://:match/:url*" },
-    { "source": "/:protocol*/:match/:url*/", "destination": ":protocol://:match/:url*/" }
-  ]
+    "version": 2,
+    "routes": [
+      {"src": "/(.*)","dest": "https://2owhqznrdt.cloudflare-gateway.com"}
+    ]
 }
